@@ -1,18 +1,16 @@
 {
-  "name": "face-analyzer-frontend",
-  "private": true,
+  "name": "face-analyzer-backend",
   "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node app.js"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.6.0"
-  },
-  "devDependencies": {
-    "vite": "^4.5.0"
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "openai": "^4.41.0",
+    "pdfkit": "^0.16.0",
+    "uuid": "^9.0.0"
   }
 }
